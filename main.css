@@ -1,0 +1,19 @@
+*{box-sizing: border-box;}
+
+main, header{
+    width: 80%;
+    margin: 0 auto;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.results-img{
+    width: 60%;
+    display: block;
+}
