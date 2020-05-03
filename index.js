@@ -12,7 +12,7 @@ function displayResults(responseJson){
   console.log(responseJson);    
 
   if(responseJson.code === 404){
-    alert('Invalid input. Try all lowecase i.e labrador, hound, corgi');
+    alert('Invalid input. Try all lowercase i.e labrador, hound, corgi');
   }else{
     const dogURL = responseJson.message;
     $('.results img').remove();
